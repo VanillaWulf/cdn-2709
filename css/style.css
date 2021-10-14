@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/roboto-bold.woff2") format("woff2"),
+        url("/fonts/roboto-bold.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/roboto-regular.woff2") format("woff2"),
+        url("/fonts/roboto-regular.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+.cell {
+    border: 3px solid green;
+}
+
+.btn-success-light {
+    color: #fff;
+    background-color: #68f0b0;
+    border-color: #68f0b0;
+}
+
+.btn-success-light:hover {
+    color: #fff;
+    background-color: #00a759;
+    border-color: #00a759;
+}
+
+.mb-100px {
+    margin-bottom: 100px;
+}
+
+.icon {
+    color: red;
+}
